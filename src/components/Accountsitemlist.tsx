@@ -15,7 +15,7 @@ export default Accountsitemlist;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#f9f9f9",
+    backgroundColor: "white",
     padding: 10,
     flexDirection: "row",
     justifyContent: "space-between",
