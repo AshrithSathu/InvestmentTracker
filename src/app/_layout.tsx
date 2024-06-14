@@ -3,24 +3,7 @@ import { Tabs } from "expo-router";
 
 export default function RootLayout() {
   return (
-    <Tabs
-      screenOptions={{
-        headerShown: false,
-      }}
-    >
-      {/* <Tabs.Screen
-        name="index"
-        options={{
-          title: "Allocations",
-          tabBarIcon: ({ size, color, focused }) => (
-            <MaterialIcons
-              name="account-tree"
-              size={size}
-              color={focused ? "black" : "grey"}
-            />
-          ),
-        }}
-      /> */}
+    <Tabs>
       <Tabs.Screen
         name="index"
         options={{
