@@ -1,15 +1,15 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const accounts = () => {
+const newallocation = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Accounts</Text>
+      <Text style={styles.text}>New Allocations</Text>
     </View>
   );
 };
 
-export default accounts;
+export default newallocation;
 
 const styles = StyleSheet.create({
   container: {
